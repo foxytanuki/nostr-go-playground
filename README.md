@@ -6,7 +6,9 @@
 
 ### Nostrill
 `./nostrill/nostrill`
+
 https://github.com/jb55/nostril
+
 
 ```
 nostril --envelope --sec <key> --content "this is a message" | websocat ws://localhost:8008
@@ -17,7 +19,10 @@ nostril --envelope --sec <key> --content "this is a message" | websocat ws://loc
 
 
 ### relayer
-`docker compose up`
-`docker exec -it basic-postgres-1 psql -U nostr nostr`
-`nostr-# \dt`
-`nostr=# SELECT * from event;`
+```
+docker compose up
+
+docker exec -it basic-postgres-1 psql -U nostr nostr
+nostr-# \dt
+nostr=# SELECT * from event;
+```
