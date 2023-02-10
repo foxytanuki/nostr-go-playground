@@ -1,2 +1,4 @@
 # nostr-go-playground
-nostrich baby
+
+Generate randam privkey
+`openssl rand -hex 32`
