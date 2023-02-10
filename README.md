@@ -14,3 +14,10 @@ nostril --envelope --sec <key> --content "this is a message" | websocat ws://loc
 
 ### noscl
 `noscl publish <content>` 
+
+
+### relayer
+`docker compose up`
+`docker exec -it basic-postgres-1 psql -U nostr nostr`
+`nostr-# \dt`
+`nostr=# SELECT * from event;`
