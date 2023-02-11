@@ -1,3 +1,6 @@
 [submodule "relayer"]
 	path = relayer
 	url = https://github.com/fiatjaf/relayer
+[submodule "nostril"]
+	path = nostril
+	url = https://github.com/jb55/nostril
