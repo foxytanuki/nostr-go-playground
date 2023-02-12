@@ -26,3 +26,8 @@ docker exec -it basic-postgres-1 psql -U nostr nostr
 nostr-# \dt
 nostr=# SELECT * from event;
 ```
+
+## Useful Links
+
+- https://github.com/aljazceru/awesome-nostr
+- https://github.com/fiatjaf/noscl
