@@ -32,3 +32,4 @@ nostr=# SELECT * from event;
 - https://github.com/aljazceru/awesome-nostr
 - https://github.com/fiatjaf/noscl
 - https://github.com/nbd-wtf/go-nostr
+- https://github.com/blakejakopovic/nostreq
