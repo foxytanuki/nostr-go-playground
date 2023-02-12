@@ -29,7 +29,8 @@ nostr=# SELECT * from event;
 
 ## Useful Links
 
-- https://github.com/aljazceru/awesome-nostr
+- https://www.nostr.net/
+  - https://github.com/aljazceru/awesome-nostr
 - https://github.com/fiatjaf/noscl
 - https://github.com/nbd-wtf/go-nostr
 - https://github.com/blakejakopovic/nostreq
