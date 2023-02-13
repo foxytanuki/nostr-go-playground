@@ -36,3 +36,5 @@ nostr=# SELECT * from event;
 - https://github.com/blakejakopovic/nostreq
 - https://github.com/hoytech/strfry
 - https://api.nostr.watch/
+- https://nproxy-test.zerologin.co/
+- https://nostr-proxy.inosta.cc/
