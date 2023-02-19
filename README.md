@@ -30,7 +30,7 @@ nostr=# SELECT * from event;
 ### nostreq
 https://github.com/blakejakopovic/nostreq
 
-````
+```
 nostreq --authors c8238017bbd3e488c7814c8f49201e8d21a2f5d560627964e31799563fec80c1 | nostcat wss://relay.damus.io
 ```
 
