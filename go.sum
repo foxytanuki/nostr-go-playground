@@ -9,12 +9,8 @@ github.com/decred/dcrd/crypto/blake256 v1.0.0 h1:/8DMNYp9SGi5f0w7uCm6d6M4OU2rGFK
 github.com/decred/dcrd/crypto/blake256 v1.0.0/go.mod h1:sQl2p6Y26YV+ZOcSTP6thNdn47hh8kt6rqSlvmrXFAc=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0 h1:HbphB4TFFXpv7MNrT52FGrrgVXF1owhMVTHFZIlnvd4=
 github.com/decred/dcrd/dcrec/secp256k1/v4 v4.1.0/go.mod h1:DZGJHZMqrU4JJqFAWUS2UO1+lbSKsdiOoYi9Zzey7Fc=
-github.com/foxytanuki/go-nostr-event v0.0.0 h1:v852excCe7//X3QUU0MhF6/EGcwuf+KKoGBDFLyFX9A=
-github.com/foxytanuki/go-nostr-event v0.0.0/go.mod h1:GPnbO+9b6kSruuC49Z6ipK3v4CnuULRZSYHjf5Rm9ao=
 github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
 github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
-github.com/nbd-wtf/go-nostr v0.13.0 h1:3OcUknuSLm8prTk2u/kUvbMQYtaSjLKemADRQ8TBIXk=
-github.com/nbd-wtf/go-nostr v0.13.0/go.mod h1:qFFTIxh15H5GGN0WsBI/P73DteqsevnhSEW/yk8nEf4=
 github.com/nbd-wtf/go-nostr v0.13.1 h1:YwjO5fhipinxOZ7MQztFhaHCLfUoCc36skEJ36dWwVg=
 github.com/nbd-wtf/go-nostr v0.13.1/go.mod h1:qFFTIxh15H5GGN0WsBI/P73DteqsevnhSEW/yk8nEf4=
 github.com/valyala/fastjson v1.6.4 h1:uAUNq9Z6ymTgGhcm0UynUAB6tlbakBrz6CQFax3BXVQ=
