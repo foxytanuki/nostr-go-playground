@@ -1,8 +1,8 @@
 github.com/FactomProject/basen v0.0.0-20150613233007-fe3947df716e/go.mod h1:kGUqhHd//musdITWjFvNTHn90WG9bMLBEPQZ17Cmlpw=
 github.com/FactomProject/btcutilecc v0.0.0-20130527213604-d3a63a5752ec/go.mod h1:CD8UlnlLDiqb36L110uqiP2iSflVjx9g/3U9hCI4q2U=
 github.com/cmars/basen v0.0.0-20150613233007-fe3947df716e/go.mod h1:P13beTBKr5Q18lJe1rIoLUqjM+CB1zYrRg44ZqGuQSA=
-github.com/foxytanuki/go-nostr-event v0.0.0 h1:v852excCe7//X3QUU0MhF6/EGcwuf+KKoGBDFLyFX9A=
-github.com/foxytanuki/go-nostr-event v0.0.0/go.mod h1:GPnbO+9b6kSruuC49Z6ipK3v4CnuULRZSYHjf5Rm9ao=
+github.com/foxytanuki/go-nostr-event v0.0.1 h1:DYUovwmr7WNvlMe2mTYGICiTAt2Kp0hmQK1v3MKHP+w=
+github.com/foxytanuki/go-nostr-event v0.0.1/go.mod h1:GPnbO+9b6kSruuC49Z6ipK3v4CnuULRZSYHjf5Rm9ao=
 github.com/stretchr/testify v1.1.5-0.20170601210322-f6abca593680/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/tyler-smith/go-bip32 v1.0.0/go.mod h1:onot+eHknzV4BVPwrzqY5OoVpyCvnwD7lMawL5aQupE=
 github.com/tyler-smith/go-bip39 v1.1.0/go.mod h1:gUYDtqQw1JS3ZJ8UWVcGTGqqr6YIN3CWg+kkNaLt55U=

@@ -17,9 +17,10 @@ import (
 
 func main() {
 	fmt.Println("welcome to sunaba")
-	sk, _ := newAccount()
+	nip19Gen()
+	// sk, _ := newAccount()
 
-	like(sk, "c90c8571c4e4b85f8c5367305cd455e4de488c72dca9ba763109b24f96af47f4", "c6dc2b963a3125b06dc4007fa21075405f53bbcafd3d1ae98d77ba2e434f6947")
+	// like(sk, "c90c8571c4e4b85f8c5367305cd455e4de488c72dca9ba763109b24f96af47f4", "c6dc2b963a3125b06dc4007fa21075405f53bbcafd3d1ae98d77ba2e434f6947")
 }
 
 func newAccount() (string, string) {
@@ -67,19 +68,7 @@ func like(sk string, note string, event string) {
 }
 
 func nip19Gen() {
-	npub := "npub1422a7ws4yul24p0pf7cacn7cghqkutdnm35z075vy68ggqpqjcyswn8ekc"
-
-	if prefix, v, err := nip19.Decode(npub); err == nil {
-		pub := v.(string)
-		fmt.Println(prefix)
-		fmt.Println(pub)
-		if s, err := nip19.EncodePublicKey(pub); err == nil {
-			fmt.Println(s)
-		}
-	}
-	fmt.Println("---")
-
-	priv := "647d4c14c560a1d2a1abeeb11d340a9dd3a08fa53e5736f1e4cafc78309a575e"
+	priv := "01d9b7358076e4c57a566be13a3fe86685adde69625389c3be3c982a05a2f3cb"
 	if bech32priv, err := nip19.EncodePrivateKey(priv); err == nil {
 		fmt.Println(bech32priv)
 		fmt.Println(priv)

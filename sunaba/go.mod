@@ -3,7 +3,8 @@ module github.com/foxytanuki/nostr-go-playground/sunaba
 go 1.19
 
 require (
-	github.com/foxytanuki/go-nostr-event v0.0.0
+	github.com/foxytanuki/go-nostr-event v0.0.2
+	github.com/joho/godotenv v1.5.1
 	github.com/nbd-wtf/go-nostr v0.13.1
 )
 
