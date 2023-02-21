@@ -1,4 +1,4 @@
-package main
+package sunaba
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/nbd-wtf/go-nostr/nip19"
 )
 
-func main() {
+func nip19Gen() {
 	npub := "npub1422a7ws4yul24p0pf7cacn7cghqkutdnm35z075vy68ggqpqjcyswn8ekc"
 
 	if prefix, v, err := nip19.Decode(npub); err == nil {

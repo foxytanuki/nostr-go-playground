@@ -1,4 +1,4 @@
-package main
+package sunaba
 
 import (
 	"context"
@@ -13,7 +13,7 @@ import (
 	"github.com/nbd-wtf/go-nostr/nip19"
 )
 
-func main() {
+func variableProfile() {
 	sk := nostr.GeneratePrivateKey()
 	pub, _ := nostr.GetPublicKey(sk)
 	bech, _ := nip19.EncodePublicKey(pub)

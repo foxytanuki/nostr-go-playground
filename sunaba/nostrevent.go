@@ -1,4 +1,4 @@
-package main
+package sunaba
 
 import (
 	"encoding/json"
@@ -9,7 +9,7 @@ import (
 	"github.com/nbd-wtf/go-nostr"
 )
 
-func main() {
+func useNostrevent() {
 	sk := nostr.GeneratePrivateKey()
 	cev := nostrevent.NewNote("hi")
 	if err := cev.SignPk(sk); err != nil {
