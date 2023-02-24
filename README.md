@@ -45,3 +45,5 @@ nostreq --authors c8238017bbd3e488c7814c8f49201e8d21a2f5d560627964e31799563fec80
 - https://api.nostr.watch/
 - https://nproxy-test.zerologin.co/
 - https://nostr-proxy.inosta.cc/
+- NIPs fuzzy search
+  - https://nips.be/search
