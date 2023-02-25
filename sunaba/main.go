@@ -17,7 +17,6 @@ import (
 
 func main() {
 	fmt.Println("welcome to sunaba")
-	nip19Gen()
 	// sk, _ := newAccount()
 
 	// like(sk, "c90c8571c4e4b85f8c5367305cd455e4de488c72dca9ba763109b24f96af47f4", "c6dc2b963a3125b06dc4007fa21075405f53bbcafd3d1ae98d77ba2e434f6947")
@@ -65,6 +64,14 @@ func like(sk string, note string, event string) {
 		}
 		fmt.Println("published to ", url, relay.Publish(context.Background(), ev.Event))
 	}
+}
+
+func BechToHex(bech string) {
+	_, hex, err := nip19.Decode(bech)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fmt.Println(hex)
 }
 
 func nip19Gen() {
