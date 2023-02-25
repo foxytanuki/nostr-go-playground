@@ -47,3 +47,5 @@ nostreq --authors c8238017bbd3e488c7814c8f49201e8d21a2f5d560627964e31799563fec80
 - https://nostr-proxy.inosta.cc/
 - NIPs fuzzy search
   - https://nips.be/search
+- strfry Deployment Guide
+  - https://github.com/hoytech/strfry/blob/master/docs/DEPLOYMENT.md
